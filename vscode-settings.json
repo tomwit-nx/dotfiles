@@ -1,19 +1,82 @@
 {
     "editor.fontFamily": "Iosevka Nerd Font Mono",
+    "git.enableSmartCommit": true,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.hideCursorInOverviewRuler": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.hlsearch": true,
+    "vim.smartRelativeLine": true,
+    "vim.useSystemClipboard": true,
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.showToolbar": "always",
+    "vim.easymotion": true,
+    "vim.leader": "<space>",
     "window.menuBarVisibility": "compact",
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "GitHub Dark Default",
-    "chat.commandCenter.enabled": false,
-    "editor.renderWhitespace": "all",
-    "window.commandCenter": false,
-    "redhat.telemetry.enabled": true,
-    "editor.minimap.enabled": false,
-    "workbench.layoutControl.enabled": false,
-    "editor.fontSize": 16,
-    "vim.leader": "<space>",
+    "workbench.startupEditor": "none",
+    "vim.statusBarColorControl": true,
     "extensions.experimental.affinity": {
-        "vscodevim.vim": 1
-    }  ,
-    "vim.incsearch": true,
-    "vim.hlsearch": true
+        "vscode.vim": 1
+    },
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "-"
+            ],
+            "commands": [
+                "editor.action.fontZoomOut",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "="
+            ],
+            "commands": [
+                "editor.action.fontZoomIn",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands",
+            ],
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "p"
+            ],
+            "after": [
+                "P"
+            ]
+        }
+    ],
+    "git.confirmSync": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f87",
+        "statusBar.noFolderBackground": "#005f87",
+        "statusBar.debuggingBackground": "#005f87",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
+    },
 }
