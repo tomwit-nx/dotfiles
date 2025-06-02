@@ -1,0 +1,15 @@
+[
+    {
+        "key": "ctrl+9",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "space e",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    }
+]
