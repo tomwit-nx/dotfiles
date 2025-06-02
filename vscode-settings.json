@@ -1,0 +1,19 @@
+{
+    "editor.fontFamily": "Iosevka Nerd Font Mono",
+    "window.menuBarVisibility": "compact",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "chat.commandCenter.enabled": false,
+    "editor.renderWhitespace": "all",
+    "window.commandCenter": false,
+    "redhat.telemetry.enabled": true,
+    "editor.minimap.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.fontSize": 16,
+    "vim.leader": "<space>",
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    }  ,
+    "vim.incsearch": true,
+    "vim.hlsearch": true
+}
